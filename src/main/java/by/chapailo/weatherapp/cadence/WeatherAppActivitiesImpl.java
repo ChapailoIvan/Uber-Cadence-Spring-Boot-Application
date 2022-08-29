@@ -6,7 +6,7 @@ import by.chapailo.weatherapp.utils.WeatherForecast;
 import org.springframework.web.client.RestTemplate;
 
 public class WeatherAppActivitiesImpl implements WeatherAppActivities {
-    private String API_KEY = "a1fe0cab0e63ab376ec2a0d2f8ee9853";
+    private String API_KEY = "YOUR_OPENWEATHER_API_KEY";
 
     @Override
     public WeatherForecast getWeather(String city) {
